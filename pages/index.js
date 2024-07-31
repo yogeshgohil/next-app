@@ -9,7 +9,7 @@ export default function Home() {
   }
   return (
     <div className={styles.container}>
-      <h1>Auth</h1>
+      <h1>Auth App</h1>
       <Image src={session?.data?.user?.image} width={100} height={100} />
       <div>
         <h2>{session?.data?.user?.name}</h2>
