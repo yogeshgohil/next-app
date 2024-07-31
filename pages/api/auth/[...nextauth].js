@@ -8,6 +8,7 @@ export const authOptions = {
       clientSecret: process.env.GITHUB_SECRET_KEY,
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
 
